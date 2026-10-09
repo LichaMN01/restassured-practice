@@ -11,7 +11,7 @@ public class BearerToken {
 	@Test
 	public void verifyBearerTokenAuthentication() {
 	
-//	String token = "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";
+	String token = "test";
 	
 	Response response = RestAssured
 	.given()
