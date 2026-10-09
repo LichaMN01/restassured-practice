@@ -29,7 +29,7 @@ public class FakerForDynamicDataGeneration {
 			
 	         Response response = given()
 			.contentType(ContentType.JSON)
-			.header("Authorization", "Bearer ee203e1d970ea464e194917cecef8634dc398428970893bf4d4fa5982d503374")
+		//	.header("Authorization", "Bearer ee203e1d970ea464e194917cecef8634dc398428970893bf4d4fa5982d503374")
 			.body(body)
 			
 			.when()
