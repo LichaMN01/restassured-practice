@@ -14,7 +14,7 @@ public class FormDataParameters {
 	Response response = RestAssured
 	.given()
 	.auth()
-	.basic("sk_test_51UNa1qH9uqRZuXfxwQxjXWrHcqevXDZdZW8D4l9X3JTPfgfQaiLWFLCaSheauA0puwAyTw0h0ORrKGa9iztwTFVj00ObsTvYld", "")
+//	.basic("sk_test_51UNa1qH9uqRZuXfxwQxjXWrHcqevXDZdZW8D4l9X3JTPfgfQaiLWFLCaSheauA0puwAyTw0h0ORrKGa9iztwTFVj00ObsTvYld", "")
 	.contentType("application/x-www-form-urlencoded")
 	.formParam("name", "Lisandro")
 	.formParam("email", "lisandro@test.com")
